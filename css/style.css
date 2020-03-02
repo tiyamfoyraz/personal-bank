@@ -1,0 +1,58 @@
+
+    *{
+      margin: 0;
+      padding: 0;
+      }
+ 
+      #banner{
+        display: flex;
+        height: 100vh;
+        align-items: center;
+      }
+ 
+      
+      .form_box{
+        padding: 40px 30px;
+        margin: 40px;
+        border : 1px solid rgb(199, 199, 199);
+        border-radius: 14px;
+        -webkit-box-shadow: 7px 7px 22px -8px rgba(128,128,128,1);
+ -moz-box-shadow: 7px 7px 22px -8px rgba(128,128,128,1);
+ box-shadow: 7px 7px 22px -8px rgba(128,128,128,1);
+      }
+ 
+      #dashboard{
+        display: none;
+        height: 100vh;
+        margin-top: 50px;
+      }
+ 
+      #dashboard .row{
+        margin-top: 40px;
+      }
+ 
+      .box h2, .box h4{
+         color: #fff;
+      }
+ 
+      .box{
+        border-radius: 10px;
+      }
+ 
+      .deposit{
+        background-color: slateblue;
+        margin: 10px;
+        padding: 25px;
+      }
+ 
+      .withdraw{
+        background-color: lightsalmon;
+        margin: 10px;
+        padding: 25px;
+      }
+ 
+      .balance{
+        background-color: orange;
+        margin: 10px;
+        padding: 25px;
+      }

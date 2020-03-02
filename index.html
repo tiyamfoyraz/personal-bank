@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Banner area -->
+  <div id="banner">
+    <div class="container-fluid">
+        <h1 class="text-center">Welcome To Pioneer Bank</h1>
+
+      <div class="form_box">
+              <input type="email" class="form-control" id="mail" placeholder="Enter email">
+              <br>
+              <input type="password" class="form-control" id="pass" placeholder="Password">
+              <br>
+             <button id="login" class="btn btn-success">Submit</button>      
+      </div>
+     </div>
+  </div>
+
+
+
+  <div id="dashboard">
+    <div class="container">
+        <h1 class="text-center">Dashboard Area</h1>
+
+        <div class="row">
+          <!-- deposit -->
+          <div class="col-md-4">
+            <div class="deposit box">
+              <h2>Deposit</h2>
+              <h4>$<span id="currentDeposit">0</span></h4>
+            </div>
+          </div>
+
+          <!-- withdraw -->
+          <div class="col-md-4">
+            <div class="withdraw box">
+              <h2>Withdraw</h2>
+              <h4>$<span id="currentWithdrawal">0</span></h4>
+            </div>
+          </div>
+
+
+          <!-- balance -->
+          <div class="col-md-4">
+            <div class="balance box">
+              <h2>Balance</h2>
+              <h4>$<span id="currentBalance">5000</span></h4>
+            </div>
+          </div>
+
+        </div>
+
+
+        <div class="row">
+          <!-- withdraw form -->
+          <div class="col-md-6">
+             <div class="form_box">
+               <h2>Deposit Box</h2>
+              <input type="email" class="form-control" id="depositAmount" placeholder="Enter Deposit Amount">
+              <br>
+             <button id="depositBtn" class="btn btn-success">Submit</button>      
+             </div>
+          </div>
+
+          <!-- deposit form -->
+          <div class="col-md-6">
+            <div class="form_box">
+              <h2>Withdrawal Box</h2>
+              <input type="email" class="form-control" id="withdrawalAmount" placeholder="Enter Withdrawal Amount">
+              <br>
+             <button id="withdrawalBtn" class="btn btn-success">Submit</button>     
+             </div>
+          </div>
+        </div>
+
+
+
+
+
+
+    </div>
+  </div>
+
+
+ <script src="js/jquery.min.js"></script>
+ <script src="js/bootstrap.min.js"></script>
+ <script src="js/app.js"></script>  
+</body>
+</html>
